@@ -21,7 +21,7 @@ function render() {
             type: "email",
             placeholder: "email",
             required: true,
-            value: "diego777@mail.com"
+            value: ""
           })}
 
           ${input({
@@ -30,7 +30,7 @@ function render() {
             type: "password",
             placeholder: "password",
             required: true,
-            value: "123456"
+            value: ""
           })}
 
           ${loginError ? 
