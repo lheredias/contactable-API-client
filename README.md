@@ -15,7 +15,7 @@
   </tr>
  </table>
 
-Authors:
+## Authors:
 
 - 👽 [lheredias](https://github.com/lheredias) (Javascript)
 - 👽 [Diego12996](https://github.com/Diego12996) (CSS)
