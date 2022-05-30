@@ -1,0 +1,244 @@
+@import url(./typography.css);
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+.title-page {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+
+.h2-home-page {
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border-bottom: 1px solid #cecece;
+}
+
+.contact-home-page {
+  text-decoration: inherit;
+  list-style: none;
+  margin-left: 32px;
+  /* margin-top: 18px; */
+  /* margin-bottom: 18px; */
+}
+
+.contact-name {
+  /* height : 100px; */
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+
+.input {
+  border-bottom: 1px solid #cecece;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  width: 235px;
+}
+
+.input::placeholder {
+  color: #BFBFBF;
+}
+
+.input-select {
+  width: 239px;
+  border-bottom: 1px solid #cecece;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  appearance: none;
+  background-image: url(../assets/select-arrow.svg);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+  margin-top: 23px;
+  color: #BFBFBF;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.select-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.details-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.name {
+  margin-top: 8px;
+}
+
+.relation {
+  margin-top: 4px;
+}
+
+.number {
+  margin-top: 24px;
+}
+
+.email {
+  margin-top: 16px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.contacts-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+
+}
+
+.contact-list {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.button-login{
+  font-family: 'Roboto Flex', sans-serif;
+  border: none;
+  background-color: white;
+}
+
+.button-signup {
+  font-family: 'Roboto Flex', sans-serif;
+  text-decoration: none;
+}
+
+.favorite {
+  border: none;
+  width: 19.4px;
+  height: 19.4px;
+  background-image: url(../assets/favorite.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.button-add-contact {
+  background-image: url(../assets/Add-contact.svg);
+  background-color: #E8EAED;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-decoration: none;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+.button-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.icon-contact {
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+}
+.icon-contact-detail {
+  width: 72px;
+  height: 72px;
+}
+
+.li-contacts {
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 375px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #cecece;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 95vw;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #cecece;
+}
+
+.border-none {
+  border: none;
+}
+
+.unfavorite {
+  border: none;
+  width: 19.4px;
+  height: 19.4px;
+  background-image: url(../assets/favorite-selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.last-class {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}

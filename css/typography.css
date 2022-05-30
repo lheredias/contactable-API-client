@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+.font-size-30 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.font-size-24 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.font-size-20 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-size-16 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:24px;
+}
+
+.font-size-12 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.gray-9 {
+  color: #262626;
+}
+
+.ag {
+  color: #595959;
+}
+
+.blue {
+  color: #2962FF;
+}
+
+.placeholder-color {
+  color: #BFBFBF;
+}
